@@ -1,5 +1,7 @@
 # onesignal-node      
 
+A simple fix for onesignal-node. Not planning to develop nor maintaining this repo. Do what you want with it.
+
 <p align="center">
   <a href="https://www.npmjs.com/package/onesignal-node">
     <img src="https://img.shields.io/npm/v/onesignal-node.svg" alt="Dependency Status" />
@@ -22,30 +24,37 @@
 A Node.js client library for [OneSignal](https://onesignal.com/) API.  
       
 ## Table of Contents      
-* [Overview](#overview)
-* [Installation](#installation)      
-* [Usage](#usage)        
-  * [Client Types](#client-types)
-  * [Creating Client](#creating-client)      
-  * [Create notification](#create-notification)      
-  * [Cancel notification](#cancel-notification)      
-  * [View notifications](#view-notifications)      
-  * [View notification](#view-notification)      
-  * [View apps](#view-apps)      
-  * [Create an app](#create-an-app)      
-  * [Update an app](#update-an-app)      
-  * [View devices](#view-devices)      
-  * [View device](#view-device)      
-  * [Add a device](#add-a-device)      
-  * [Edit a device](#edit-a-device)
-  * [Edit tags with external user id](#edit-tags-with-external-user-id)
-  * [New session](#new-session)  
-  * [New purchase](#new-purchase)  
-  * [Increment Session Length](#increment-session-length)  
-  * [CSV Export](#csv-export)        
-  * [Identity verification](#identity-verification)      
-* [Tests](#tests)
-* [Contributing](#contributing)
+- [onesignal-node](#onesignal-node)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Client Types:](#client-types)
+    - [Creating client](#creating-client)
+    - [Creating UserClient](#creating-userclient)
+    - [Create notification](#create-notification)
+    - [Cancel notification](#cancel-notification)
+    - [View notifications](#view-notifications)
+    - [View notification](#view-notification)
+    - [View apps](#view-apps)
+    - [Create an app](#create-an-app)
+    - [Update an app](#update-an-app)
+    - [View devices](#view-devices)
+    - [View device](#view-device)
+    - [Add a device](#add-a-device)
+    - [Edit a device](#edit-a-device)
+    - [Edit tags with external user id](#edit-tags-with-external-user-id)
+    - [New Session](#new-session)
+    - [New Purchase](#new-purchase)
+    - [Increment Session Length](#increment-session-length)
+    - [CSV Export](#csv-export)
+    - [Create Segment](#create-segment)
+    - [Delete Segment](#delete-segment)
+    - [Identity Verification](#identity-verification)
+  - [Tests](#tests)
+  - [Contributing](#contributing)
+    - [TL;DR](#tldr)
+  - [License](#license)
       
 
 ## Overview  
