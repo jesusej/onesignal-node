@@ -75,7 +75,7 @@
     "typescript": "^3.9.10"
   },
   "dependencies": {
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "@cypress/request": "^3.0.1",
+    "@cypress/request-promise": "^5.0.0"
   }
 }

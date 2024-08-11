@@ -1,5 +1,5 @@
 import { createHmac } from 'crypto';
-import * as request from 'request';
+import * as request from '@cypress/request';
 
 import { HTTPError } from './errors';
 
