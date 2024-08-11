@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@cypress/request": ["types/request"]
+    },
     "target": "es6",
     "lib": ["es6"],
     "module": "commonjs",
@@ -19,7 +23,8 @@
     "types": ["node", "mocha", "chai", "sinon"]
   },
   "include": [
-    "src/index.ts"
+    "src/index.ts",
+    "**/*.ts"
   ],
   "exclude": [
     "node_modules",
